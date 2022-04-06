@@ -39,7 +39,7 @@ Vue.createApp({
     getUrl() {
       // url("../img/contBcg-0.jpeg")
 
-      return `url ('../img/pictures${this.index}].jpeg')`
+      return `url('../img/${pictures[this.index]}.jpeg')`
       // tenemos que devolver un string a la ruta de la foto actual. Por ejemplo, la ruta de la primera foto es '../img/pictures[0]'
     }
   }
